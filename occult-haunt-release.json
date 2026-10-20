@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "channel": "beta",
+  "game": {
+    "latest_version": "0.1.12",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.12-beta.1",
+    "size": 522746934,
+    "sha256": "9eac01d99a3a969b3343cf4f32679f04369e1448afe30ca629cbef3d55d07409",
+    "notes": "0.1.12 測試版：月之沐改為回復 1 點耐力 1 次，並包含狀態特效不再阻塞效果結算等累積修正。"
+  },
+  "art": {
+    "latest_version": 1,
+    "minimum_game_version": "0.1.11",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.12-beta.1",
+    "size": 0,
+    "notes": "目前使用本體內建美術資源。"
+  },
+  "announcements": [
+    {
+      "id": "2026-10-21-update-test",
+      "title": "測試版本更新功能",
+      "body": "此版本用於驗證 GitHub Release 更新偵測與下載頁跳轉。",
+      "level": "normal",
+      "published_at": "2026-10-21T00:00:00+08:00",
+      "expires_at": null,
+      "minimum_game_version": "0.1.11",
+      "maximum_game_version": null,
+      "display": "once",
+      "link": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.12-beta.1"
+    }
+  ]
+}
