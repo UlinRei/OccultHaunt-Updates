@@ -1,21 +1,50 @@
 {
-  "format_version": 1,
+  "format_version": 2,
   "channel": "beta",
+  "manifest_sequence": 1,
+  "issued_at": "2026-10-21T19:10:00+08:00",
   "game": {
-    "latest_version": "0.1.16",
-    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.16-beta.1",
-    "size": 520781903,
-    "sha256": "1d61299374f2ea2856ed3b047d2542dc51fa4b6cecb8e1ea2886f24e1d08357b",
-    "notes": "0.1.16 測試版：顯示層改為統一時間軸，傷害、狀態施加與中央卡牌依序演出且不卡住規則結算；修正終局連鎖當機；回合邊界等待動畫；引導式教學互動與選項改版。本版起改用正式簽章金鑰，Android 請先解除安裝舊版再安裝。"
+    "latest_version": "0.1.17",
+    "minimum_supported_version": "0.1.12",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.17-beta.1",
+    "size": 520823672,
+    "sha256": "287d66688bbdf091ddb689d9823b7416a5f5824d2365c73d4f61c518f96ace24",
+    "notes": "0.1.17 測試版：修正引導教學分段跳過與強制收尾，新增公告系統，並調整初次教學與公告的顯示順序。",
+    "platforms": {
+      "android": {
+        "asset_url": "https://github.com/UlinRei/OccultHaunt-Updates/releases/download/v0.1.17-beta.1/OccultHaunt.beta.0.1.17.apk",
+        "size": 520823672,
+        "sha256": "287d66688bbdf091ddb689d9823b7416a5f5824d2365c73d4f61c518f96ace24",
+        "version_code": 30
+      },
+      "windows": {
+        "asset_url": "https://github.com/UlinRei/OccultHaunt-Updates/releases/download/v0.1.17-beta.1/OccultHaunt.beta.0.1.17.exe",
+        "size": 612516640,
+        "sha256": "ecd33954b3453581f2555f0d5572fc15930f25b01f46ed4f01a0ee728ea14f1e"
+      }
+    }
   },
   "art": {
     "latest_version": 1,
     "minimum_game_version": "0.1.11",
-    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.16-beta.1",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.17-beta.1",
     "size": 0,
     "notes": "目前使用本體內建美術資源。"
   },
+  "resource_updates": [],
   "announcements": [
+    {
+      "id": "2026-10-21-0.1.17-test",
+      "title": "0.1.17 教學流程與公告系統",
+      "body": "修正引導教學分段跳過與強制收尾，新增公告系統；初次玩家會先完成初次見面教學，再顯示更新公告。",
+      "level": "important",
+      "published_at": "2026-10-21T19:10:00+08:00",
+      "expires_at": null,
+      "minimum_game_version": "0.1.12",
+      "maximum_game_version": null,
+      "display": "once",
+      "link": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.17-beta.1"
+    },
     {
       "id": "2026-10-21-0.1.16-test",
       "title": "0.1.16 顯示層時間軸與簽章更換",
