@@ -2,20 +2,32 @@
   "format_version": 1,
   "channel": "beta",
   "game": {
-    "latest_version": "0.1.15",
-    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.15-beta.1",
-    "size": 522789422,
-    "sha256": "53459005face03565f670806ad72a7124118d64bdd94a1c5a09acba06fab40b0",
-    "notes": "0.1.15 測試版：修正多段傷害、逐目標與反應卡演出計時器阻塞核心效果隊列；多段特效與數字改由顯示層逐筆播放；更新檢查會在網路就緒時重試。"
+    "latest_version": "0.1.16",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.16-beta.1",
+    "size": 520781903,
+    "sha256": "1d61299374f2ea2856ed3b047d2542dc51fa4b6cecb8e1ea2886f24e1d08357b",
+    "notes": "0.1.16 測試版：顯示層改為統一時間軸，傷害、狀態施加與中央卡牌依序演出且不卡住規則結算；修正終局連鎖當機；回合邊界等待動畫；引導式教學互動與選項改版。本版起改用正式簽章金鑰，Android 請先解除安裝舊版再安裝。"
   },
   "art": {
     "latest_version": 1,
     "minimum_game_version": "0.1.11",
-    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.15-beta.1",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.16-beta.1",
     "size": 0,
     "notes": "目前使用本體內建美術資源。"
   },
   "announcements": [
+    {
+      "id": "2026-10-21-0.1.16-test",
+      "title": "0.1.16 顯示層時間軸與簽章更換",
+      "body": "動畫與跳字改為依序演出，並修正終局連鎖後當機。本版起 Android 改用正式簽章金鑰，從 0.1.15 以前的版本更新時，必須先解除安裝舊版再安裝。",
+      "level": "important",
+      "published_at": "2026-10-21T16:30:00+08:00",
+      "expires_at": null,
+      "minimum_game_version": "0.1.15",
+      "maximum_game_version": null,
+      "display": "once",
+      "link": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.16-beta.1"
+    },
     {
       "id": "2026-10-21-0.1.15-test",
       "title": "0.1.15 多段效果隊列修正",
