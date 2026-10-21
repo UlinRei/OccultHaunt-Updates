@@ -2,20 +2,32 @@
   "format_version": 1,
   "channel": "beta",
   "game": {
-    "latest_version": "0.1.13",
-    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.13-beta.1",
+    "latest_version": "0.1.14",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.14-beta.1",
     "size": 522789422,
-    "sha256": "38fef1fb99d7feb0670dc9b39ef8a2ed2976e56e231c1c8441c9088420f63950",
-    "notes": "0.1.13 測試版：補齊引導式教學展示與等待流程、修正對局 Operation 結束後停滯，並恢復共用載入畫面的百分比。"
+    "sha256": "625c309d2f7aff7d365c78f42c0c6375ce7963c43e2313e94e8c0f1f88b40fdd",
+    "notes": "0.1.14 測試版：修正 0.1.13 離線 AI 第一張卡牌完成 Operation 後無法結束整筆結算的回歸問題。"
   },
   "art": {
     "latest_version": 1,
     "minimum_game_version": "0.1.11",
-    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.13-beta.1",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.14-beta.1",
     "size": 0,
     "notes": "目前使用本體內建美術資源。"
   },
   "announcements": [
+    {
+      "id": "2026-10-21-0.1.14-test",
+      "title": "0.1.14 離線對局修正",
+      "body": "修正 0.1.13 離線 AI 使用第一張卡牌後，效果已完成但回合流程停止的問題。",
+      "level": "important",
+      "published_at": "2026-10-21T11:20:00+08:00",
+      "expires_at": null,
+      "minimum_game_version": "0.1.13",
+      "maximum_game_version": null,
+      "display": "once",
+      "link": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.14-beta.1"
+    },
     {
       "id": "2026-10-21-0.1.13-test",
       "title": "0.1.13 測試版本",
