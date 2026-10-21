@@ -2,20 +2,32 @@
   "format_version": 1,
   "channel": "beta",
   "game": {
-    "latest_version": "0.1.14",
-    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.14-beta.1",
+    "latest_version": "0.1.15",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.15-beta.1",
     "size": 522789422,
-    "sha256": "625c309d2f7aff7d365c78f42c0c6375ce7963c43e2313e94e8c0f1f88b40fdd",
-    "notes": "0.1.14 測試版：修正 0.1.13 離線 AI 第一張卡牌完成 Operation 後無法結束整筆結算的回歸問題。"
+    "sha256": "53459005face03565f670806ad72a7124118d64bdd94a1c5a09acba06fab40b0",
+    "notes": "0.1.15 測試版：修正多段傷害、逐目標與反應卡演出計時器阻塞核心效果隊列；多段特效與數字改由顯示層逐筆播放；更新檢查會在網路就緒時重試。"
   },
   "art": {
     "latest_version": 1,
     "minimum_game_version": "0.1.11",
-    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.14-beta.1",
+    "download_page": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.15-beta.1",
     "size": 0,
     "notes": "目前使用本體內建美術資源。"
   },
   "announcements": [
+    {
+      "id": "2026-10-21-0.1.15-test",
+      "title": "0.1.15 多段效果隊列修正",
+      "body": "修正多段傷害與反應效果在演出等待期間停止規則結算的問題，並保留逐筆動畫與數字演示。",
+      "level": "important",
+      "published_at": "2026-10-21T12:35:00+08:00",
+      "expires_at": null,
+      "minimum_game_version": "0.1.14",
+      "maximum_game_version": null,
+      "display": "once",
+      "link": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.15-beta.1"
+    },
     {
       "id": "2026-10-21-0.1.14-test",
       "title": "0.1.14 離線對局修正",
