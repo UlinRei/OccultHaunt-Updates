@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "channel": "beta",
-  "manifest_sequence": 2,
-  "issued_at": "2026-10-24T18:49:55+08:00",
+  "manifest_sequence": 3,
+  "issued_at": "2026-10-24T19:25:31+08:00",
   "game": {
     "latest_version": "0.1.18",
     "minimum_supported_version": "0.1.12",
@@ -33,6 +33,28 @@
   },
   "resource_updates": [],
   "announcements": [
+    {
+      "id": "2026-10-24-0.1.18-beta",
+      "title": "0.1.18 教學互動與多語系更新",
+      "body": "教學選項與集會身分確認改版，語言切換不再重建畫面並補齊英文與簡中，公告支援多語系，新增遊戲內更新與簽章驗證。",
+      "translations": {
+        "en": {
+          "title": "0.1.18 Tutorial and Localization Update",
+          "body": "Reworked tutorial choices and Assembly Identity confirmation. Switching language no longer rebuilds the screen, English and Simplified Chinese are filled in, notices support multiple languages, and in-game updates with signature verification are added."
+        },
+        "zh_CN": {
+          "title": "0.1.18 教学互动与多语系更新",
+          "body": "教学选项与集会身分确认改版，语言切换不再重建画面并补齐英文与简中，公告支持多语系，新增游戏内更新与签名验证。"
+        }
+      },
+      "level": "important",
+      "published_at": "2026-10-24T19:30:00+08:00",
+      "expires_at": null,
+      "minimum_game_version": "0.1.12",
+      "maximum_game_version": null,
+      "display": "once",
+      "link": "https://github.com/UlinRei/OccultHaunt-Updates/releases/tag/v0.1.18-beta.1"
+    },
     {
       "id": "2026-10-21-0.1.17-test",
       "title": "0.1.17 教學流程與公告系統",
