@@ -1,0 +1,21 @@
+name = "occult-haunt-share"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+# 預設使用 workers.dev 子網域。若改用自訂網域，在這裡加入 routes。
+workers_dev = true
+
+[vars]
+DAILY_CREATE_LIMIT = "300"
+
+# KV 命名空間 id 由 Cloudflare 建立後填入（見主專案 occult-haunt 的 documents/指導文件/短碼後端Cloudflare設定教學.md）。
+# id 不是機密，可以進版控。
+[[kv_namespaces]]
+binding = "SHARE_KV"
+id = "63e734653b1a408b8f6014cdd94860ed"
+
+# 每個 IP 每 60 秒最多 10 次建立。此服務不消耗 KV 寫入額度。
+[[ratelimits]]
+name = "SHARE_LIMITER"
+namespace_id = "1001"
+simple = { limit = 10, period = 60 }

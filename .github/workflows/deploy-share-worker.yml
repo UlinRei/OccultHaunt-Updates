@@ -1,0 +1,36 @@
+name: Deploy share worker
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "share-worker/**"
+      - ".github/workflows/deploy-share-worker.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-share-worker
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: share-worker
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run logic tests
+        run: npm test
+      - name: Deploy with wrangler
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: share-worker
+          command: deploy
